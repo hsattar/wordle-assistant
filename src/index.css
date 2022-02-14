@@ -1,0 +1,9 @@
+.tile-grid {
+    max-width: 500px;
+}
+
+.tile {
+    border: 1px solid black;
+    width: 75px;
+    height: 75px;
+}
