@@ -2,11 +2,13 @@ import { Col, Row } from "react-bootstrap"
 import SingleTile from './SingleTile'
 
 interface IProps {
-  letters: string[]
   inputs: string[]
 }
 
-export default function TilesGrid({ letters, inputs }: IProps) {
+export default function TilesGrid({ inputs }: IProps) {
+
+  const letters = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+
   return (
     <Row>
       <Col xs="12">
